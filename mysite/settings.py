@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-dg*lnr9c0ebmr^pz$3id$(y_9i@p_2klutzyn%#2bi(cq89f8="
+SECRET_KEY = "django-insecure-3g8uy3*=s#zpdjelk1j*u!w(&wr12p%#w=a1+q^fk8g+ak!##r"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -106,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "America/Indiana/Indianapolis"
+TIME_ZONE = 'America/Indiana/Indianapolis'
 
 USE_I18N = True
 
@@ -118,7 +118,6 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / 'static'
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
